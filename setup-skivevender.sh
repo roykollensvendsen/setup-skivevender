@@ -27,5 +27,9 @@ sudo cp iptables.ipv4.nat /etc/iptables.ipv4.nat
 
 sudo cp local.rc /etc/local.rc
 
+sudo cp skivevender.service /etc/systemd/system/skivevender.service
+
+sudo systemctl enable skivevender
+
 sudo reboot -h now
 
